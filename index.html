@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hollow Knight - Selección de Personaje</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <h1>⚔️ Hollow Knight ⚔️</h1>
+  <p>Elige tu personaje:</p>
+
+  <!-- Selección inicial -->
+  <div id="seleccion" class="personajes">
+    <button onclick="mostrarSeccion('caballerito')">Caballerito</button>
+    <button onclick="mostrarSeccion('hornet')">Hornet</button>
+  </div>
+
+  <!-- Sección Caballerito -->
+  <div id="caballerito" class="seccion">
+    <h2>🛡️ El Caballerito</h2>
+    <p>
+      El Caballerito es el protagonista de Hollow Knight.  
+      Es un misterioso ser enmascarado que explora Hallownest en busca de su propósito.
+    </p>
+    <h3>Habilidades:</h3>
+    <ul>
+      <li>Clavo: Arma principal de ataque.</li>
+      <li>Alas de monarca: Permiten un doble salto.</li>
+      <li>Magias: Hechizos como Espíritu Vengativo y Descarga Onírica.</li>
+    </ul>
+    <a href="#" onclick="volver()">⬅️ Volver a la selección</a>
+  </div>
+
+  <!-- Sección Hornet -->
+  <div id="hornet" class="seccion">
+    <h2>🕷️ Hornet</h2>
+    <p>
+      Hornet es la princesa protectora de Hallownest.  
+      Ágil y poderosa, se enfrenta al Caballerito en varias ocasiones para ponerlo a prueba.
+    </p>
+    <h3>Habilidades:</h3>
+    <ul>
+      <li>Agilidad extrema en combate.</li>
+      <li>Hilo de seda: Le permite moverse rápidamente y atacar a distancia.</li>
+      <li>Gran destreza con su aguja.</li>
+    </ul>
+    <a href="#" onclick="volver()">⬅️ Volver a la selección</a>
+  </div>
+</body>
+</html>
